@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    /* margin: 10px 20px; */
+    padding: 10px;
+    width: 150px;
+    outline: none;
+    border: none;
+}
+
+.catch-btn{
+    /* margin-block: 30px; */    
+    border-radius: 10px;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+}

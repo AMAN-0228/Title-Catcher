@@ -1,0 +1,19 @@
+{
+    "name":"Title Catcher",
+    "version": "1.0",
+    "manifest_version":3,
+    "description":"Gets the title of the targeted page",
+    "background":{
+        "service_worker": "background.js"
+    },
+    "action":{
+        "default_popup":"popup/popup.html",
+        "default_icon":"image/title.png"
+    },
+    "icons":{
+        "128":"image/title.png"
+    },
+    "permissions":[
+        "activeTab"
+    ]
+}
