@@ -1,15 +1,53 @@
+:root{
+    --bg-color:#141E46;
+    --heading:#FF6969;
+    --btn-bg:#176B87;
+}
 body{
     text-align: center;
     /* margin: 10px 20px; */
     padding: 10px;
-    width: 150px;
+    width: 350px;
+    /* background-color: var(--bg-color); */
     outline: none;
     border: none;
 }
 
+.name{
+    color:var(--heading);
+}
+
 .catch-btn{
-    /* margin-block: 30px; */    
+    /* margin-block: 30px; */
+    background-color: var(--btn-bg);
     border-radius: 10px;
     padding: 0.5rem 3rem;
     cursor: pointer;
+}
+
+.title{
+    margin-top: 20px;
+    display: none;
+    grid-template-columns: 1fr .2fr;
+    text-align: left;
+    font-size: 15px;
+}
+
+.copy-btn{
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    cursor: pointer;
+    /* transition: .5s ; */
+}
+.copy-btn img{
+    width: 15px;
+    /* height: 10px; */
+}
+
+:is(.copy-btn,.catch-btn):active{
+    transform: scaleY(.9);
+    /* transform: translate(12,1); */
 }
